@@ -12,10 +12,10 @@ dramedy     = "Battle of the Sexes"
 
 puts "On a scale of 1 - 5, how much do you like documentaries?"
 doc_rating = gets.to_i
-puts "On a scale of 1 - 5, how much do you like dramas?"
-drama_rating = gets.to_i
 puts "On a scale of 1 - 5, how much do you like comedies?"
 comedy_rating = gets.to_i
+puts "On a scale of 1 - 5, how much do you like dramas?"
+drama_rating = gets.to_i
 
 #If they rate documentaries four or higher, recommend the documentary                           #checked code- worked
 if doc_rating >= 4
@@ -28,7 +28,7 @@ elsif doc_rating <= 3 && comedy_rating >= 4 && drama_rating >= 4
 elsif  doc_rating <=3 && comedy_rating <=3 && drama_rating >= 4
   puts "I recomend you watch the dramedy #{drama}"
   # If they rate just comedies 4 or higher, recommend the comedy. Otherwise, recommend a good book.
-elsif  doc_rating <=3 && comedy_rating <=4 && drama_rating >= 3                                               #code works
+elsif  doc_rating <=3 && comedy_rating >=4 && drama_rating >= 3                                               #code works
   puts "I recomend you watch the comedy #{comedy}"                                                  #code works
 else  doc_rating <=3 && comedy_rating <=3 && drama_rating <= 3
   puts "I recomend you read a good book."
