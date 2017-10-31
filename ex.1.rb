@@ -3,11 +3,11 @@ drama       = "Moonlight"
 comedy      = "The Big Sick"
 dramedy     = "Battle of the Sexes"
 
-puts "Do you enjoy documentaries? yes or no"
+puts "Do you enjoy documentaries? yes or no?"
 doc_answer = gets.chomp
-puts "Do you enjoy dramas ? yes or no"
+puts "Do you enjoy dramas ? yes or no?"
 drama_answer = gets.chomp
-puts "Do you enjoy comedies? yes or no"
+puts "Do you enjoy comedies? yes or no?"
 comedy_answer = gets.chomp
 
 
